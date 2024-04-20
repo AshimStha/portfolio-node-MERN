@@ -17,6 +17,17 @@ router.get("/user", async (req, res) => {
   }
 });
 
+// Get all the projects
+router.get("/projects", async (req, res) => {
+  try {
+    const projectsData = await model.getProjectsData();
+    res.json(projectsData);
+  } catch (error) {
+    console.error("Error fetching projects data:", error);
+    res.status(500).send("Server Error");
+  }
+});
+
 // Get project data by project ID
 router.get("/projects/:projectId", async (req, res) => {
   const projectId = req.params.projectId;

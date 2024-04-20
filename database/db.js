@@ -53,6 +53,7 @@ async function getProjectsData() {
   }
 }
 
+
 // exporting the functions
 module.exports = {
   getUserData,
