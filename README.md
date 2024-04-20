@@ -21,8 +21,6 @@ The dot env file was added to secure the DB host information to be used in the a
 
 ## Images
 
-### User Data
-
 ![User Data JSON](./public/images/UserData.png)
 *User Data JSON*
 
