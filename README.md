@@ -14,7 +14,7 @@ The dot env file was added to secure the DB host information to be used in the a
 - password: LULdhErAkPNy7Qbr
 
 **User credentials**
-- name: eatfitdbuser
+- name: nodeuser
 - password: ZeT47CWNDgxYxyjs
 
 ---
