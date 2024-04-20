@@ -11,7 +11,7 @@ const router = require("./modules/router");
 
 // Set up Express app
 const app = express();
-const port = process.env.PORT || "8888";
+const port = process.env.PORT || "8000";
 
 // defining the views directory for the root source
 app.set("views", path.join(__dirname, "views"));
