@@ -28,4 +28,4 @@ The dot env file was added to secure the DB host information to be used in the a
 *All Projects JSON*
 
 ![Project Data JSON](./public/images/ProjectData.png)
-*Project Data JSON*
+*Project Data by Id JSON*
