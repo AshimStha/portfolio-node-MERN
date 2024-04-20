@@ -1,13 +1,13 @@
 // Import required modules
 const path = require("path");
 const express = require("express");
-const dotenv = require('dotenv').config();
+const dotenv = require('dotenv');
 
 // loading the custom env variables
 dotenv.config();
 
 // importing the router for the page routes
-const router = require("./router");
+const router = require("./modules/router");
 
 // Set up Express app
 const app = express();
@@ -19,9 +19,6 @@ app.set("views", path.join(__dirname, "views"));
 // app.set("view engine", "pug");
 // setup public folder
 app.use(express.static(path.join(__dirname, "public")));
-
-app.use(express.urlencoded( {extended: true} ));
-app.use(express.json());
 
 // using the router
 app.use(router);
