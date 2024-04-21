@@ -15,15 +15,15 @@ The dot env file was added to secure the DB host information to be used in the a
 
 ---
 
-## MongoDB User
+### MongoDB User
 - username: PortfolioDBuser
 - password: Test123
 
-## Atlas Credentials
+### Atlas Credentials
 - username: ashimshrestha125
 - password: aLSKg5AAfKhMbcWl
 
-**DB User Credentials**
+### DB User Credentials
 - name: PortfolioDBUser
 - password: 2cemMo4q1C3Sc3U9
 
