@@ -9,7 +9,7 @@ dotenv.config();
 const app = express();
 const port = process.env.PORT || "8000";
 
-const dbUrl = `mongodb://localhost:27017`;
+const dbUrl = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PWD}@${process.env.DB_HOST}/?retryWrites=true&w=majority&appName=Cluster0`;
 const client = new MongoClient(dbUrl);
 
 app.use(express.urlencoded({ extended: true }));
