@@ -12,6 +12,9 @@ const client = new MongoClient(dbURL, {
   useUnifiedTopology: true
 });
 
+// to access from all servers
+app.use
+
 // function to establish a connection with the db
 async function connection() {
   try {

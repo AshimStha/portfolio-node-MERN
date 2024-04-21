@@ -2,12 +2,19 @@
 const path = require("path");
 const express = require("express");
 const dotenv = require('dotenv');
+const cors = require("cors");
+
 
 // loading the custom env variables
 dotenv.config();
 
 // importing the router for the page routes
 const router = require("./modules/router");
+
+// for all servers
+app.use(cors({
+  origin: "*"
+}));
 
 // Set up Express app
 const app = express();
