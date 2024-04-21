@@ -39,3 +39,6 @@ The dot env file was added to secure the DB host information to be used in the a
 
 ![Project Data JSON](./public/images/ProjectData.png)
 *Project Data by Id JSON*
+
+![MongoDB Atlas](./public/images/AtlasData.png)
+*Project Data in Atlas*
